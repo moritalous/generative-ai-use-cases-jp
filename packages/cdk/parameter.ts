@@ -16,7 +16,10 @@ const envs: Record<string, Partial<StackInput>> = {
   //   // デフォルト設定を上書きしたいものは以下に追記
   // },
   '': {
-    'selfSignUpEnabled': false
+    'selfSignUpEnabled': false,
+    'hostName': 'gen-u.app.bedrock.day',
+    'domainName': 'gen-u.app.bedrock.day',
+    'hostedZoneId': 'Z04749332VXE660ERPNDO',
   },
   dev: {
     // 開発環境のパラメータ
