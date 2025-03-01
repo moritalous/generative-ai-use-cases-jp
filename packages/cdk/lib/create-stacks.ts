@@ -126,6 +126,9 @@ export const createStacks = (app: cdk.App, params: StackInput) => {
       )
     : null;
 
+  // myApplicationタグを追加
+  cdk.Tags.of(generativeAiUseCasesStack).add("awsApplication", "arn:aws:resource-groups:us-east-1:637423213562:group/generative-ai-use-cases-jp/0dov9ozzxa5dxgjbxcqqrtjli9")
+
   return {
     cloudFrontWafStack,
     ragKnowledgeBaseStack,
