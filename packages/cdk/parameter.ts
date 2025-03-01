@@ -15,6 +15,11 @@ const envs: Record<string, Partial<StackInput>> = {
   //   // 無名環境のパラメータ
   //   // デフォルト設定を上書きしたいものは以下に追記
   // },
+  '': {
+    "context": {
+      "selfSignUpEnabled": false,
+    }
+  },
   dev: {
     // 開発環境のパラメータ
   },
