@@ -17,7 +17,7 @@ const envs: Record<string, Partial<StackInput>> = {
   // },
   '': {
     'selfSignUpEnabled': false,
-    'hostName': 'gen-u.app.bedrock.day',
+    'hostName': '',
     'domainName': 'gen-u.app.bedrock.day',
     'hostedZoneId': 'Z04749332VXE660ERPNDO',
   },
